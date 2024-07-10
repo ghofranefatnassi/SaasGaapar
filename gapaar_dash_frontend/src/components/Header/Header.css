@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.header{
+    background: linear-gradient(90deg, #e9e9e9 77%, #8abfdc 100%);
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+.iconPlace{
+    justify-content: end;
+    align-items: center;
+    margin-left: auto; 
+}
+.search{
+    justify-content: start;
+    align-items: center;
+    margin-right: 30px;
+}
+
+  
+  input:focus {
+    outline: none; /* Remove focus outline */
+    border-color: transparent; /* Set border color to transparent when input is focused */
+  }
+  
+  .input-container-Header {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-width: 0px;
+    height: fit-content;
+    width:fit-content ;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .icon-header{
+    color: #7C858C;
+  }
+  .text-header{
+    color: #7C858C;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+.marg{
+    margin-left: 10px;
+    margin-right: 20px;
+}

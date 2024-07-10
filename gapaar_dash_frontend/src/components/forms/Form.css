@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* {
+  margin: 0;
+  transition: all 0.3s linear;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page {
+  height: 100vh;
+  position: relative;
+
+}
+
+.content5 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  flex-direction: column;
+  background: linear-gradient(60deg, #F2F5F5 50%, #D5DEEF 50%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.logo1{
+  height: 250px; 
+   width: 175px;
+}
+
+.container_login{
+  background-color: #F2F5F5; /* You can change this if needed */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin-bottom: 70px;
+  align-items:center;
+  padding: 20px;
+}
+
+.text1 {
+  color: #7C858C;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.text2_login {
+  color: #7C858C;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  flex-direction: row;
+  margin-bottom: 30px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row; 
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #D5DEEF;
+  border-width: 0px;
+  height: fit-content;
+  width:fit-content ;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+.inputForm {
+  background-color: #d5deef !important; /* Override browser default */
+  border: none; /* Remove default border */
+  height: 40px;
+  width: 300px;
+  border-radius: 25px;
+  transition: border-color 0.3s; /* Add transition for smooth effect */
+}
+
+.inputform input:focus {
+  outline: none; /* Remove focus outline */
+  border-color: transparent; /* Set border color to transparent when input is focused */
+}
+
+/* Set background color when input is valid (contains registered information) */
+.inputfrom input:valid {
+  background-color: #d5deef !important; /* Override browser default */
+}
+.icon{
+  margin: 5px;
+  color: #0083CB;
+}
+.bt {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #0083CB;
+  color: #fff;
+  border-width: 0px;
+  height: 40px;
+  width:350px ;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.text3 a{
+  color: #7C858C;
+  font-size: 15px;
+  text-decoration: underline;
+  text-align: left;
+  margin: 15px;
+}
+.text3 a:hover{
+  color: #0083CB;
+  font-size: 15px;
+  text-decoration: underline;
+  text-align: left;
+  margin: 15px;
+}
+
+.label{
+  text-align: left;
+  color:#7C858C;
+}
